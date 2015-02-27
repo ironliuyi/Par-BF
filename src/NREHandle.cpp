@@ -10,7 +10,7 @@
 #include <fcntl.h>
 #define RESERVE_BUF_SIZE 64
 const std::string DBPATH="/home/liuyi/Mydb";
-/*u_int64_t NRE_Handle::segment_counts=1;
+u_int64_t NRE_Handle::segment_counts=1;
 NRE_Handle::NRE_Handle(const string& keySuffix,const vector<string>& fileName,
 		boost::shared_ptr<BloomFilter> bp,
 		boost::shared_ptr<LRUCache<string,string> > cache,
@@ -292,4 +292,4 @@ void NRE_Handle::post_file (const string& path)
 //	build_file(path,wBuf,strlen(wBuf));
 	fileVec.clear();
 	delete wBuf;
-}*/
+}
